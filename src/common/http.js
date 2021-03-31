@@ -4,7 +4,6 @@ import {
     message as Message,
 } from "antd";
 import {BASE_URL} from './config.js';
-import PubSub from 'pubsub-js';
 
 // 请求超时时间
 axios.defaults.timeout = 20 * 1000;

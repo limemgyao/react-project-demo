@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
+const WebpackBar = require('webpackbar');
 const resolve = require('resolve');
 const PnpWebpackPlugin = require('pnp-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -99,7 +100,7 @@ module.exports = function (webpackEnv) {
     const shouldUseReactRefresh = env.raw.FAST_REFRESH;
 
     // common function to get style loaders
-    const getStyleLoaders = (cssOptions, lessOptions, preProcessor) => {
+    const getStyleLoaders = (cssOptions, preProcessor) => {
         const loaders = [
             isEnvDevelopment && require.resolve('style-loader'),
             isEnvProduction && {
@@ -116,7 +117,6 @@ module.exports = function (webpackEnv) {
             },
             {
                 loader: require.resolve('less-loader'),
-                options: lessOptions,
             },
             {
                 // Options for PostCSS as we reference these options twice
@@ -511,7 +511,6 @@ module.exports = function (webpackEnv) {
                                     sourceMap: isEnvProduction
                                         ? shouldUseSourceMap
                                         : isEnvDevelopment,
-                                    modules: true,
                                 },
                                 'less-loader'
                             ),
@@ -779,6 +778,7 @@ module.exports = function (webpackEnv) {
                     },
                 },
             }),
+            new WebpackBar()
         ].filter(Boolean),
         // Some libraries import Node modules but don't use them in the browser.
         // Tell webpack to provide empty mocks for them so importing them works.
