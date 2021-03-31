@@ -1,0 +1,293 @@
+{
+  "code": "OK",
+  "rows": [
+    {
+      "code": "data-001",
+      "name": "数据中心",
+      "icon": "icon-01",
+      "url": "",
+      "children": [
+        {
+          "code": "data-001-0001",
+          "name": "数据中心01",
+          "icon": "icon-01-001",
+          "url": "",
+          "children": [
+            {
+              "code": "data-001-0001-001",
+              "name": "糖尿病领域创新项目",
+              "icon": "icon-01-001-01",
+              "url": "/content1111",
+              "children": []
+            },
+            {
+              "code": "data-001-0001-002",
+              "name": "糖尿病领域创新项目1",
+              "icon": "icon-01-001-01",
+              "url": "/content1122",
+              "children": []
+            }
+          ]
+        },
+        {
+          "code": "data-001-0011",
+          "name": "数据中心11",
+          "icon": "icon-01-011",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "data-001-0021",
+          "name": "数据中心21",
+          "icon": "icon-01-021",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "data-001-0031",
+          "name": "数据中心31",
+          "icon": "icon-01-031",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "data-001-0041",
+          "name": "数据中心41",
+          "icon": "icon-01-041",
+          "url": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "code": "project-001",
+      "name": "项目中心",
+      "icon": "icon-02",
+      "url": "",
+      "children": [
+        {
+          "code": "project-001-0001",
+          "name": "项目中心01",
+          "icon": "icon-02-001",
+          "url": "",
+          "children": [
+            {
+              "code": "00-01",
+              "name": "项目代办2-1",
+              "icon": "icon-java",
+              "url": "/content2-1",
+              "children": []
+            },
+            {
+              "name": "项目代办2-2",
+              "icon": "icon-java",
+              "url": "/content2-2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "code": "project-001-0011",
+          "name": "项目中心11",
+          "icon": "icon-02-011",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "project-001-0021",
+          "name": "项目中心21",
+          "icon": "icon-02-021",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "project-001-0031",
+          "name": "项目中心31",
+          "icon": "icon-02-031",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "project-001-0041",
+          "name": "项目中心41",
+          "icon": "icon-02-041",
+          "url": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "code": "design-001",
+      "name": "设计中心",
+      "icon": "icon-03",
+      "url": "",
+      "children": [
+        {
+          "code": "design-001-0001",
+          "name": "设计中心01",
+          "icon": "icon-03-001",
+          "url": "/content3",
+          "children": []
+        },
+        {
+          "code": "design-001-0011",
+          "name": "设计中心11",
+          "icon": "icon-03-011",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "design-001-0021",
+          "name": "设计中心21",
+          "icon": "icon-03-021",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "design-001-0031",
+          "name": "设计中心31",
+          "icon": "icon-03-031",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "design-001-0041",
+          "name": "设计中心41",
+          "icon": "icon-03-041",
+          "url": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "code": "config-001",
+      "name": "配置中心",
+      "icon": "icon-04",
+      "url": "",
+      "children": [
+        {
+          "code": "config-001-0001",
+          "name": "配置中心01",
+          "icon": "icon-04-001",
+          "url": "/content4",
+          "children": []
+        },
+        {
+          "code": "config-001-0011",
+          "name": "配置中心11",
+          "icon": "icon-04-011",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "config-001-0021",
+          "name": "配置中心21",
+          "icon": "icon-04-021",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "config-001-0031",
+          "name": "配置中心31",
+          "icon": "icon-04-031",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "config-001-0041",
+          "name": "配置中心41",
+          "icon": "icon-04-041",
+          "url": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "code": "balance-001",
+      "name": "结算中心",
+      "icon": "icon-05",
+      "url": "",
+      "children": [
+        {
+          "code": "balance-001-0001",
+          "name": "结算中心01",
+          "icon": "icon-05-001",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "balance-001-0011",
+          "name": "结算中心11",
+          "icon": "icon-05-011",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "balance-001-0021",
+          "name": "结算中心21",
+          "icon": "icon-05-021",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "balance-001-0031",
+          "name": "结算中心31",
+          "icon": "icon-05-031",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "balance-001-0041",
+          "name": "结算中心41",
+          "icon": "icon-05-041",
+          "url": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "code": "plat-001",
+      "name": "平台管理",
+      "icon": "icon-06",
+      "url": "",
+      "children": [
+        {
+          "code": "plat-001-0001",
+          "name": "平台管理01",
+          "icon": "icon-06-001",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "plat-001-0011",
+          "name": "平台管理11",
+          "icon": "icon-06-011",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "plat-001-0021",
+          "name": "平台管理21",
+          "icon": "icon-06-021",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "plat-001-0031",
+          "name": "平台管理31",
+          "icon": "icon-06-031",
+          "url": "",
+          "children": []
+        },
+        {
+          "code": "plat-001-0041",
+          "name": "平台管理41",
+          "icon": "icon-06-041",
+          "url": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
+
