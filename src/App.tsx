@@ -12,19 +12,6 @@ function App() {
      * 点击事件
      */
     const handleClick = () => {
-        // new Promise((resolve, reject) => {
-        //     get('/api/getData.json').then(res => {
-        //         if (res.code == '0') {
-        //             resolve(res.data);
-        //             console.log(res.data)
-        //         } else {
-        //             message.error(res.message);
-        //             resolve(res.data);
-        //         }
-        //     }).catch(res => {
-        //         message.error(res.message);
-        //     });
-        // });
         get('./mock/BAK.json').then(res => {
             if (res.code == '0') {
                 console.log(res.data)
