@@ -1,0 +1,13 @@
+.menuNav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    width: 200px;
+  }
+
+  .right {
+    width: calc(100% - 200px)
+  }
+}

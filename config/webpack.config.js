@@ -549,6 +549,7 @@ module.exports = function (webpackEnv) {
                                     sourceMap: isEnvProduction
                                         ? shouldUseSourceMap
                                         : isEnvDevelopment,
+                                    modules: true,
                                 },
                                 'sass-loader'
                             ),
