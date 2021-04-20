@@ -1,13 +1,4 @@
 .menuNav {
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-
-  .left {
-    width: 200px;
-  }
-
-  .right {
-    width: calc(100% - 200px)
-  }
+  max-width: 200px;
+  /*background: #6287EC;*/
 }

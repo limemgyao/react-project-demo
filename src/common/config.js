@@ -1,11 +1,14 @@
 let env = process.env.REACT_APP_ENV;
-console.log(env)
-console.log(process.env)
+console.log('env', env)
+console.log('process.env', process.env)
 let baseUrl = '';
 
 //开发环境
 if (env === 'development') {
-    baseUrl = window.location.href
+    /*baseUrl = window.location.href*/
+    console.log(window.location.href)
+    baseUrl = 'http://localhost:3001'
+    /*baseUrl = 'http://localhost:3001'*/
     // baseUrl = 'http://172.20.10.4:9090/'
     /*baseUrl = 'http://192.168.1.38:8004/'*/
 }

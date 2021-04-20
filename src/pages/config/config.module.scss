@@ -1,0 +1,93 @@
+.plan {
+  width: 100%;
+  padding: 16px 16px 34px 16px;
+  height: calc(100% - 59px);
+  overflow-y: scroll;
+  background: #F6F7FC;
+
+  .planForm {
+    margin-bottom: 16px;
+
+    .planSearchItem {
+      width: 100%;
+      margin: 0px;
+      padding: 20px;
+      background: #fff;
+      display: flex;
+
+      .ant-form-item {
+        width: 25%;
+        padding-right: 20px;
+        margin-right: 0px;
+        margin-bottom: 16px;
+      }
+
+      .searchRow {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .ant-select {
+        & .ant-select-single {
+          .ant-select-selector {
+            border-color: #EEEFF7;
+          }
+        }
+      }
+
+      .ant-form-item-control .ant-select-single {
+        .ant-select-arrow svg {
+          vertical-align: middle;
+          font-size: 12px;
+          margin-top: -6px;
+          color: #c3c3c3;
+        }
+      }
+
+      .ant-btn.ant-btn-primary {
+        background: #6287EC;
+        border: 1px solid #6287EC;
+      }
+
+      .searchBtn {
+        border-color: #6287EC;
+
+        span {
+          color: #6287EC;
+        }
+      }
+    }
+  }
+
+  .tableList {
+    margin: 0px;
+
+    .tableBtns {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      > div {
+        float: left;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #6287EC;
+        /*margin-right: 8px;*/
+        cursor: pointer;
+
+        & .del {
+          color: #f04864;
+          margin-right: 0px;
+        }
+
+        .anticon {
+          font-size: 14px;
+          margin-right: 1px;
+        }
+      }
+    }
+  }
+}
+

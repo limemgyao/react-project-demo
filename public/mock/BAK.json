@@ -10,19 +10,6 @@
           "title": "项目代办",
           "icon": "ic",
           "key": "1",
-          "children": [
-            {
-              "title": "项目代办1",
-              "icon": "ic",
-              "key": "0-0",
-              "children": []
-            }
-          ]
-        },
-        {
-          "title": "数据核查",
-          "icon": "ic",
-          "key": "2",
           "children": []
         }
       ]
